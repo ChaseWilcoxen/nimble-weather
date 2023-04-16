@@ -10,6 +10,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+
+
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { WeatherReportComponent } from './weather-report-component/weather-report-component.component'; 
 import { WeatherService } from './weather-service.service';
@@ -27,6 +30,7 @@ import { WeatherService } from './weather-service.service';
     BrowserAnimationsModule,
     HttpClientModule,
     MatCardModule,
+    MatProgressBarModule,
     MatSelectModule,
     MatToolbarModule,
     ReactiveFormsModule,
